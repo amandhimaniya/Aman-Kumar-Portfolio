@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- TIÊU ĐỀ MỚI -->
+    <title>Aman Kumar - Full-stack Web Developer</title>
+    <!-- THAY ICON MỚI (NẾU CÓ) -->
+    <link rel="icon" type="image/png" href="assets/favicon.png" />
+
+    <!-- THÊM FONT MỚI TỪ GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- LINK CSS VÀ FONT AWESOME -->
+    <link rel="stylesheet" href="css/new-version.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+    <!-- Scroll progress bar remains unchanged -->
+    <div class="scroll-progress-bar"></div>
+
+    <header class="main-header">
+        <!-- Group 1: Logo -->
+        <a class="logo" href="index.html"><span>Aman Kumar</span></a>
+
+        <!-- Group 2: Navigation block -->
+        <div class="header-navigation"> <!-- ADD THIS TAG -->
+            <nav class="main-nav">
+                <a href="#hero">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <!-- <a href="#coding-activity">Activity</a> -->
+                <a href="#projects">Projects</a>
+                <a href="#experience">Experience</a>
+                <a href="#contact">Contact</a>
+                <span class="nav-indicator"></span>
+            </nav>
+            <a href="assets/resume.pdf" class="resume-button" download>Resume</a>
+        </div> <!-- ADD THIS TAG -->
+
+    </header>
+
+    <main>
+        <!-- ====================================================== -->
+        <!-- Section 1: Hero (MAJOR CHANGE) -->
+        <!-- ====================================================== -->
+        <section id="hero" class="hero-section">
+            <div class="hero-background"></div>
+            <div class="container hero-container">
+                <!-- Profile Card (left side) -->
+                <div class="profile-card-container animate-on-scroll">
+                    <div class="profile-card glass-card">
+                        <div class="profile-header">
+                            <div class="avatar-wrapper">
+                                <img src="assets/my_image1.jpg" alt="Avatar" class="avatar" />
+                                <div class="status-indicator online"></div>
+                            </div>
+                            <div class="profile-info">
+                                <h2>Aman Kumar</h2>
+                                <p class="job-title">Full-stack Web Developer</p>
+                            </div>
+                        </div>
+                        <div class="profile-details">
+                            <p><i class="fas fa-map-marker-alt"></i> Gurugram Haryana, India</p>
+                            <p><i class="fas fa-calendar-alt"></i> Joined 2024</p>
+                            <p><i class="fas fa-briefcase"></i> Maharishi Dayanand University</p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Hero Text Content (center section) -->
+                <div class="hero-text-content">
+                    <div class="welcome-badge animate-on-scroll">Welcome to my Portfolio</div>
+                    <h1 class="animate-on-scroll">
+                        Building Digital<br>
+                        <span class="gradient-text">Experiences</span>
+                    </h1>
+                    <p style="color: white;" class="animate-on-scroll">A passionate Software Engineering student
+                        specializing in creating
+                        efficient, user-centric web applications and Buildings Machine Learning Models.</p>
+                    <div class="hero-buttons animate-on-scroll">
+                        <a href="#projects" class="btn btn-primary">View my projects <i
+                                class="fas fa-arrow-right"></i></a>
+                        <a href="#contact" class="btn btn-secondary">Get in touch</a>
+                    </div>
+                    <div class="social-links animate-on-scroll">
+                        <a style="color: white;" href="https://linkedin.com/in/amandhimaniya" aria-label="LinkedIn"><i
+                                class="fab fa-linkedin-in"></i></a>
+                        <a style="color: white;" href="https://github.com/amandhimaniya" aria-label="GitHub"><i
+                                class="fab fa-github"></i></a>
+                        <a style="color: white;" href="mailto:amandhimaniya@gmail.com" aria-label="Email"><i
+                                class="fas fa-envelope"></i></a>
+                        <a style="color: white;" href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-down-indicator"></div>
+        </section>
+
+        <!-- ====================================================== -->
+        <!-- Music Player Widget -->
+        <!-- ====================================================== -->
+
+        <!-- ====================================================== -->
+        <!-- Section 2: About Me (UPDATED) -->
+        <!-- ====================================================== -->
+        <section id="about" class="content-section">
+            <div class="container">
+                <div class="section-header animate-on-scroll">
+                    <div class="section-badge">My personal story</div>
+                    <h2 class="section-title">About Me</h2>
+                    <div class="title-underline"></div>
+                </div>
+                <div class="about-grid">
+                    <div class="about-image-wrapper animate-on-scroll">
+                        <img src="assets/my_image.jpg" alt="A pensive anime character in a snowy city scene">
+                        <div class="status-tag">
+                            <span class="green-dot"></span> Available for work
+                        </div>
+                    </div>
+                    <div class="about-text-content animate-on-scroll">
+                        <p>I am a dedicated Software Engineering student at Maharishi Dayanand University with a deep
+                            passion
+                            for building efficient and user-friendly web solutions. My journey into programming started
+                            with a curiosity to understand how things work, and it has grown into a drive to create
+                            meaningful applications.</p>
+                        <p>I enjoy tackling challenging problems and continuously expanding my skill set in the
+                            ever-evolving world of technology. From developing full-stack e-commerce platforms to
+                            creating fun, interactive web apps, my goal is to leverage my technical abilities to build
+                            impactful products.</p>
+                        <div class="info-box-wrapper glass-card">
+                            <div class="info-box">
+                                <div>
+                                    <span class="info-label">Name</span>
+                                    <p>Aman Kumar</p>
+                                </div>
+                                <div>
+                                    <span class="info-label">Email</span>
+                                    <p>amandhimaniya@gmail.com</p>
+                                </div>
+                                <div>
+                                    <span class="info-label">Location</span>
+                                    <p>Gurugram Haryana, India</p>
+                                </div>
+                                <div>
+                                    <span class="info-label">Availability</span>
+                                    <p class="available-status">Open to Internship/ Full Time</p>
+                                </div>
+                            </div>
+                            <a href="assets/resume/Aman Kumar _ Software Developer.pdf" download
+                                class="btn-download-resume">Download Resume <i class="fas fa-download"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ====================================================== -->
+        <!-- Section 3: Skills (UPDATED) -->
+        <!-- ====================================================== -->
+        <section id="skills" class="content-section">
+            <div class="container">
+                <div class="section-header animate-on-scroll">
+                    <!-- Add "My Skills" badge -->
+                    <div class="section-badge">My Skills</div>
+                    <!-- Change title -->
+                    <h2 class="section-title">Technical Stack</h2>
+                    <div class="title-underline"></div>
+                </div>
+
+                <div class="skills-wrapper">
+                    <div class="skills-grid">
+                        <!-- JavaScript will dynamically insert skill bars here -->
+                        <p class="skills-loading">
+                            <i class="fas fa-spinner fa-spin"></i> Loading technical skills...
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ====================================================== -->
+        <!-- Section 3.2: Skills (UPGRADED VERSION WITH INTERACTIVE GRID) -->
+        <!-- ====================================================== -->
+        <section id="skills" class="content-section">
+            <div class="container">
+                <!-- Reuse standard header structure -->
+                <div class="section-header animate-on-scroll">
+                    <div class="section-badge">My Expertise</div>
+                    <h2 class="section-title">My Skills</h2>
+                    <div class="title-underline"></div>
+                </div>
+
+                <!-- New integrated content starts here -->
+                <div class="row gx-5 justify-content-center">
+                    <div class="col-lg-11 col-xl-10"> <!-- Adjust column to fit better -->
+                        <div class="card glass-card animate-on-scroll" style="border: none; padding: 2.5rem;">
+                            <!-- Part 1: Professional and Soft Skills -->
+                            <div class="mb-5">
+
+                                <h4 class="skills-subtitle">General Expertise</h4>
+                                <div class="interactive-grid-container mb-4">
+                                    <div class="interactive-grid">
+                                        <div class="grid-item" data-text="Web Technologies">Web Development</div>
+                                        <div class="grid-item" data-text="Mobile Platforms">Python Backend</div>
+                                        <div class="grid-item" data-text="User Interface Design">Data Science</div>
+                                    </div>
+                                </div>
+
+                                <h4 class="skills-subtitle">Soft Skills</h4>
+                                <div class="interactive-grid-container mb-4">
+                                    <div class="interactive-grid">
+                                        <div class="grid-item" data-text="Problem Solving">Problem Solving</div>
+                                        <div class="grid-item" data-text="Team Collaboration">Teamwork</div>
+                                        <div class="grid-item" data-text="Effective Communication">Communication</div>
+                                        <div class="grid-item" data-text="Adaptability & Learning">Adaptability</div>
+                                        <div class="grid-item" data-text="Attention to Detail">Attention to Detail</div>
+                                        <div class="grid-item" data-text="Time Management">Time Management</div>
+                                    </div>
+                                </div>
+
+                                <h4 class="skills-subtitle">Tools</h4>
+                                <div class="interactive-grid-container mb-4">
+                                    <div class="interactive-grid">
+                                        <div class="grid-item" data-text="Development IDE">VSCode</div>
+                                        <div class="grid-item" data-text="Containerization">Pycharm</div>
+                                        <div class="grid-item" data-text="Version Control">Juypter Notebook</div>
+                                        <div class="grid-item" data-text="Version Control">Git & GitHub</div>
+                                    </div>
+                                </div>
+
+                                <h4 class="skills-subtitle">Design Software</h4>
+                                <div class="interactive-grid-container">
+                                    <div class="interactive-grid">
+                                        <div class="grid-item" data-text="UI/UX Prototyping">Figma</div>
+                                        <div class="grid-item" data-text="Graphic Creation">Canva</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ====================================================== -->
+        <!-- Section 4: Featured Works (NEW ALTERNATING LAYOUT) -->
+        <!-- ====================================================== -->
+
+        <section id="projects" class="content-section">
+            <div class="container">
+                <div class="section-header animate-on-scroll">
+                    <div class="section-badge">Some of my recent work</div>
+                    <h2 class="section-title">Featured Projects</h2>
+                    <div class="title-underline"></div>
+                </div>
+
+                <!-- PROJECT 1: Dictionary Application (Layout: Image Left, Details Right) -->
+                <div class="project-showcase-grid animate-on-scroll">
+                    <div class="showcase-card">
+                        <div class="showcase-header"><span>Dictionary Application</span></div>
+                        <div class="showcase-content">
+                            <div class="text-features">
+                                <h1>Dictionary Application<br></h1>
+                                <h4 class="feature-title">FEATURES</h4>
+                                <ul>
+                                    <li>Developed web application using Django that fetches meanings, synonyms, and
+                                        antonyms of words.</li>
+                                    <li>Utilized PyDictionary and NLTK WordNet for lexical data processing.</li>
+                                    <li>Implemented user-friendly frontend with Bootstrap and integrated Django views &
+                                        form handling for
+                                        dynamic word queries.</li>
+                                </ul>
+                            </div>
+                            <div class="image-gallery">
+                                <img src="image.jpg" alt="" class="showcase-img">
+                                <!-- <img src="assets/omacha/product.jpg" alt="Omacha Homepage" class="showcase-img"> -->
+                                <img src="image.jpg" alt="" class="showcase-img">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="details-column">
+                        <h2>Dictionary Application</h2>
+                        <p class="project-category">Web,, Full-stack</p>
+                        <div class="project-tags">
+                            <span>Python</span><span>Django</span><span>Html</span><span>Bootstrap</span>
+                        </div>
+                        <div class="description-box glass-card">
+                            <p>A comprehensive dictionary application designed for quick word lookups, detailed
+                                definitions, and seamless learning experience.</p>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/amandhimaniya/Dictionary_WebApp" target="_blank"
+                                aria-label="GitHub"><i class="fab fa-github"></i></a>
+                            <a href="https://github.com/amandhimaniya/Dictionary_WebApp" aria-label="Project Details"><i
+                                    class="fas fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PROJECT 2: Banking Management System (Layout: Details Left, Image Right) -->
+                <div class="project-showcase-grid layout-reversed animate-on-scroll">
+                    <div class="showcase-card">
+                        <div class="showcase-header"><span>Online Banking Management System</span></div>
+                        <div class="showcase-content">
+                            <div class="text-features">
+                                <h1>Online Banking Management System<br></h1>
+                                <h4 class="feature-title">FEATURES</h4>
+                                <ul>
+                                    <li>Built a web-based system with dual interfaces for customers (account, fund
+                                        transfers, transaction history)
+                                        and admin (user management, monitoring). </li>
+                                    <li>Implemented authentication, role-based access, and CRUD operations using Django
+                                        ORM with SQL </li>
+                                    <li>Designed a responsive and user-friendly UI with HTML & CSS for seamless
+                                        interaction.</li>
+                                </ul>
+                            </div>
+                            <div class="image-gallery">
+                                <img src="image.png" alt="" class="showcase-img">
+                                <img src="image.png" alt="" class="showcase-img">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="details-column">
+                        <h2>BrickShop</h2>
+                        <p class="project-category">Web, Banking</p>
+                        <div class="project-tags">
+                            <span>Python</span><span>Django</span><span>SQL</span><span>HTML</span><span>CSS</span>
+                        </div>
+                        <div class="description-box glass-card">
+                            <p>A secure and efficient online banking system designed for seamless account management,
+                                transactions, and financial tracking.</p>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/amandhimaniya/Banking-Management-System" target="_blank" aria-label="GitHub"><i
+                                    class="fab fa-github"></i></a>
+                            <a href="https://github.com/amandhimaniya/Banking-Management-System" aria-label="Project Details"><i class="fas fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+            <!-- Add new one:  -->
+
+            </div>
+        </section>
+
+        <!-- ====================================================== -->
+        <!-- Section 5: Awards & Achievements (UPDATED WITH IMAGE) -->
+        <!-- ====================================================== -->
+        <section id="awards" class="content-section">
+            <div class="container">
+                <div class="section-header animate-on-scroll">
+                    <div class="section-badge">Recognition & Accomplishments</div>
+                    <h2 class="section-title">Awards & Achievements</h2>
+                    <div class="title-underline"></div>
+                </div>
+
+                <!-- Card for Award Details -->
+                <div class="award-card glass-card animate-on-scroll">
+                    <div class="award-info">
+                        <p class="award-date">April 2023</p>
+                        <h3 class="award-title">Ecell - Financial</h3>
+                        <p class="award-competition">'Manage Financial Department'</p>
+                        <p class="award-issuer">Faculty of Ecell, Gurugram University</p>
+                    </div>
+                    <div class="award-description">
+                        <ul>
+                            <li>
+                                Budget Planning & Management: Prepare and oversee budgets for events and activities.
+                            </li>
+                            <li>
+                                Expense Tracking & Reporting: Maintain records of income and expenditures for transparency.
+                            </li>
+                            <li>
+                               Fundraising & Payments: Coordinate sponsorships and handle payments to vendors or partners.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- NEW: Card for the Award Photo -->
+                <div class="award-photo-card glass-card animate-on-scroll">
+                    <h3 class="photo-title">A Proud Moment</h3>
+                    <div class="photo-wrapper">
+                        <img src="assets/achive.jpg" alt="">
+                    </div>
+                    <p class="photo-caption">Secured 3rd rank in the class, Maharishi Dayanand University, 2025.</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ====================================================== -->
+        <!-- Section 6: Experience  -->
+        <!-- ====================================================== -->
+        <section id="experience" class="content-section">
+            <div class="container">
+                <div class="section-header animate-on-scroll">
+                    <div class="section-badge">My professional journey</div>
+                    <h2 class="section-title">Experience & Education</h2>
+                    <div class="title-underline"></div>
+                </div>
+                <div class="timeline">
+                    <!-- Timeline Item 1: Masters -->
+                    <div class="timeline-item animate-on-scroll">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass-card">
+                            <h3>Master of Technology (Artificial Intelligence and Data Science) </h3>
+                            <p class="timeline-meta">Maharishi Dayananad University | 2024 - 2026</p>
+                            <p>Building a strong foundation in Artificial Intelligence, Machine Learning, Data Science,
+                                algorithms, and Python Development
+                                Design principles, while maintaining a GPA of 8.6/10.</p>
+                        </div>
+                    </div>
+                    <!-- Timeline Item 2: Bachelors -->
+                    <div class="timeline-item animate-on-scroll">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass-card">
+                            <h3>Bachelor of Techology Computer Science and Engineering (Artificial Intelligence)</h3>
+                            <p class="timeline-meta">Gurugram University | 2020 - 2024</p>
+                            <p>Developed a strong foundation in computer science, algorithms, and Java development
+                                principles, and graduated with a GPA of 7.9/10.</p>
+                        </div>
+                    </div>
+
+                    <!-- Timeline Item 3: Internship -->
+                    <div class="timeline-item animate-on-scroll">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass-card">
+                            <h3>Data Analyst Internship</h3>
+                            <p class="timeline-meta">JMD GROUPS | JAN 2024 - JUL 2024</p>
+                            <p>Collected, cleaned, and analysed large datasets to support business decision-making
+                                processes. Utilized Python libraries such as Pandas and NumPy for data manipulation and
+                                statistical analysis. Created visualizations and reports using tools like Matplotlib and
+                                Tableau to highlight trends and provide actionable insights. Automated data processing
+                                tasks to enhance efficiency and reduce manual effort. Collaborated with team members to
+                                understand data requirements and deliver effective solutions. Identified patterns and
+                                anomalies in data to support forecasting and strategic planning. Assisted in preparing
+                                presentations and reports for stakeholders, ensuring data accuracy and clarity.</p>
+                        </div>
+                    </div>
+
+                    <!-- Timeline Item 4: Masters -->
+                    <div class="timeline-item animate-on-scroll">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass-card">
+                            <h3>Web Development Internship</h3>
+                            <p class="timeline-meta">JMD GROUPS | AUG 2023 - DEC 2023</p>
+                            <p>Worked on developing and optimizing Python-based applications to enhance internal tools
+                                and processes. Assisted in writing clean, efficient, and reusable code for web and
+                                backend functionalities. Collaborated with cross-functional teams to gather requirements
+                                and implement robust software solutions. Debugged and resolved coding issues, improving
+                                application performance and reliability. Used version control tools like Git to manage
+                                the codebase and track changes effectively. Automated repetitive tasks and data
+                                processing workflows using Python scripts to boost efficiency. Participated in code
+                                reviews, gaining exposure to best practices in software development and team
+                                collaboration.</p>
+                        </div>
+                    </div>
+                    <!-- Timeline Item 3: Dự án cá nhân -->
+                    <div class="timeline-item animate-on-scroll">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass-card">
+                            <h3>Personal Project Development</h3>
+                            <p class="timeline-meta">GitHub | 2020 - Present</p>
+                            <p>Continuously developing full-stack applications and interactive tools to sharpen my
+                                skills and explore new technologies.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ====================================================== -->
+        <!-- Section 7: Contact (ĐÃ CẬP NHẬT CHO BẠN) -->
+        <!-- ====================================================== -->
+        <section id="contact" class="content-section">
+            <div class="container">
+                <div class="section-header animate-on-scroll">
+                    <div class="section-badge">Let's work together</div>
+                    <h2 class="section-title">Get In Touch</h2>
+                    <div class="title-underline"></div>
+                </div>
+                <div class="contact-grid">
+                    <div class="contact-info-wrapper glass-card animate-on-scroll">
+                        <h3>Contact Information</h3>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <span>Email</span>
+                                <a href="mailto:amandhimaniya@gmail.com">amandhimaniya@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-linkedin"></i>
+                            <div>
+                                <span>LinkedIn</span>
+                                <a href="https://linkedin.com/in/amandhimaniya"
+                                    target="_blank">linkedin.com/in/amandhimaniya</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-github"></i>
+                            <div>
+                                <span>GitHub</span>
+                                <a href="https://github.com/amandhimaniya" target="_blank">github.com/amandhimaniya</a>
+                            </div>
+                        </div>
+                        <h3 class="status-title">Current Status</h3>
+                        <div class="contact-status">
+                            <span class="green-dot"></span>
+                            Open for Full stack Python Developer/Data Analyst Internship/ Full time opportunities
+                        </div>
+                    </div>
+                    <!-- Form  -->
+                    <form class="contact-form glass-card animate-on-scroll" action="https://formspree.io/f/YOUR_FORM_ID"
+                        method="POST">
+                        <h3>Send Me a Message</h3>
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="5" placeholder="Your Message"
+                                required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message <i
+                                class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ====================================================== -->
+    <!-- Footer (MỚI) -->
+    <!-- ====================================================== -->
+
+    <footer class="main-footer">
+        <div class="container footer-container">
+            <!-- Cột 1: Giới thiệu -->
+            <div class="footer-column footer-about">
+                <h3 class="footer-logo"><span>amandhimaniya</span></h3>
+                <p>A passionate Web Developer dedicated to building beautiful and useful applications.</p>
+            </div>
+
+            <!-- Cột 2: Quick Links -->
+            <div class="footer-column footer-links">
+                <h4 class="footer-title">Quick Links</h4>
+                <ul>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="assets/resume/Aman Kumar _ Software Developer.pdf" download>Resume</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- Cột 3: Connect with Me -->
+            <div class="footer-column footer-connect">
+                <h4 class="footer-title">Connect with Me</h4>
+                <ul>
+                    <li><a href="https://github.com/amandhimaniya" target="_blank"><i class="fab fa-github"></i>
+                            GitHub</a>
+                    </li>
+                    <li><a href="https://linkedin.com/in/amandhimaniya" target="_blank"><i
+                                class="fab fa-linkedin-in"></i>
+                            LinkedIn</a></li>
+                    <li><a href="mailto:amandhimaniya@gmail.com"><i class="fas fa-envelope"></i> Email</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Dòng Copyright ở dưới cùng -->
+        <div class="footer-copyright">
+            <div class="container">
+                <p>Copyright © <span id="currentYear"></span> Aman Kumar. All rights reserved.</p>
+                <p>Last updated: <b> September 17th 2025</b></p>
+            </div>
+        </div>
+    </footer>
+
+    <audio id="audio-source"></audio>
+    <script src="js/playlist.js"></script>
+    <script src="js/new-version.js"></script>
+</body>
+
+</html>
